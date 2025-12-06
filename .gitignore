@@ -1,0 +1,45 @@
+# === Node ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# === Environment Files ===
+.env
+.env.*.local
+.env.local
+
+# === Logs ===
+logs/
+*.log
+*.log.*
+debug.log
+
+# === Build Output ===
+dist/
+build/
+out/
+.temp/
+
+# === OS / Editor Stuff ===
+.DS_Store
+Thumbs.db
+
+# === IDE ===
+.vscode/
+.idea/
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === Coverage ===
+coverage/
+.nyc_output/
+
+# === Cache ===
+.cache/
+.eslintcache
+.parcel-cache/
