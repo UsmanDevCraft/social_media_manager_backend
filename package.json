@@ -2,11 +2,11 @@
   "name": "social_media_manager_be",
   "version": "1.0.0",
   "description": "Social media manager backend.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "start": "node dist/server.js"
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "start": "node dist/index.ts"
   },
   "author": "usman awan",
   "license": "ISC",
