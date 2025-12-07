@@ -4,9 +4,9 @@
   "description": "Social media manager backend.",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "start": "node dist/index.ts"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "author": "usman awan",
   "license": "ISC",
